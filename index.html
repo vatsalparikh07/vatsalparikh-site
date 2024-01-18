@@ -61,12 +61,9 @@
       font-weight: bold;
     }
 
-    .extra-curricular {
-      font-style: italic;
-    }
-
+    .extra-curricular,
     .volunteer {
-      font-weight: bold;
+      margin-left: 20px;
     }
   </style>
 </head>
@@ -80,21 +77,24 @@
   </header>
 
   <section class="section">
-    <h2>Education</h2>
-    <p><strong>Indiana University, Bloomington, IN, United States</strong></p>
-    <p>August, 2023 – Present</p>
-    <p>GPA: 3.77 / 4.0</p>
-    <p>Masters of Science in Data Science</p>
-    <p>Coursework: Data Mining, Applied Machine Learning, Statistics</p>
-    <p></p>
-    <p><strong>Gujarat Technological University (GTU), Ahmedabad, India</strong></p>
-    <p>July, 2019 – June, 2023</p>
-    <p>GPA: 9.3 / 10.0</p>
-    <p>Bachelors in Engineering (B.E.), Information Technology</p>
+    <h2>1. Education</h2>
+    <div class="education-details">
+      <h3><strong>Indiana University, Bloomington, IN, United States</strong></h3>
+      <p>August, 2023 – Present</p>
+      <p>GPA: 3.77 / 4.0</p>
+      <p>Masters of Science in Data Science</p>
+      <p>Coursework: Data Mining, Applied Machine Learning, Statistics</p>
+    </div>
+    <div class="education-details">
+      <h3><strong>Gujarat Technological University (GTU), Ahmedabad, India</strong></h3>
+      <p>July, 2019 – June, 2023</p>
+      <p>GPA: 9.3 / 10.0</p>
+      <p>Bachelors in Engineering (B.E.), Information Technology</p>
+    </div>
   </section>
 
   <section class="section">
-    <h2>Independent Coursework</h2>
+    <h2>2. Independent Coursework</h2>
     <ul>
       <li>Machine Learning Specialization</li>
       <li>Python for Data Science</li>
@@ -111,84 +111,100 @@
   </section>
 
   <section class="section">
-    <h2>Internships</h2>
-    <p><strong>Data Analyst Intern, CSRBOX Foundation, Ahmedabad, India</strong></p>
-    <p>Feb, 2023 – May, 2023</p>
-    <ul>
-      <li>Worked on developing a hands-on machine learning project "Heart Disease Prediction System" under the guidance
-        of mentors from IBM.</li>
-      <li>Used Python libraries such as sci-kit learn, streamlit to develop an interactive web application that predicts
-        the presence of a heart disease based on several medical parameters.</li>
-      <li>Applied Support Vector Machine (SVM) to achieve the highest accuracy of 93% for classification.</li>
-    </ul>
-    <p><strong>Summer Intern, TatvaSoft, Ahmedabad, India</strong></p>
-    <p>June, 2022 – July, 2022</p>
-    <ul>
-      <li>Worked on developing an e-commerce bookstore website that features registration, login, book-list, global search,
-        and cart functionalities using ReactJS & ASP.net.</li>
-      <li>Used Axios to communicate with the Backend database stored in PostgreSQL, and developed business logic for the
-        mentioned modules using ASP.net core web API.</li>
-      <li>Applied React Hooks such as useEffect, useState, and React libraries: MaterialUI, toastify, formik, yup for
-        creating the front end of the website.</li>
-    </ul>
+    <h2>3. Internships</h2>
+    <div class="internship-details">
+      <p><strong>Data Analyst Intern, CSRBOX Foundation, Ahmedabad, India</strong></p>
+      <p>Feb, 2023 – May, 2023</p>
+      <ul>
+        <li>Worked on developing a hands-on machine learning project "Heart Disease Prediction System" under the guidance
+          of mentors from IBM.</li>
+        <li>Used Python libraries such as sci-kit learn, streamlit to develop an interactive web application that predicts
+          the presence of a heart disease based on several medical parameters.</li>
+        <li>Applied Support Vector Machine (SVM) to achieve the highest accuracy of 93% for classification.</li>
+      </ul>
+    </div>
+    <div class="internship-details">
+      <p><strong>Summer Intern, TatvaSoft, Ahmedabad, India</strong></p>
+      <p>June, 2022 – July, 2022</p>
+      <ul>
+        <li>Worked on developing an e-commerce bookstore website that features registration, login, book-list, global search,
+          and cart functionalities using ReactJS & ASP.net.</li>
+        <li>Used Axios to communicate with the Backend database stored in PostgreSQL, and developed business logic for the
+          mentioned modules using ASP.net core web API.</li>
+        <li>Applied React Hooks such as useEffect, useState, and React libraries: MaterialUI, toastify, formik, yup for
+          creating the front end of the website.</li>
+      </ul>
+    </div>
   </section>
 
   <section class="section">
-    <h2>Academic Projects</h2>
-    <p><strong>Application Failure Prediction Model Semester: 5</strong></p>
-    <ul>
-      <li>Created a machine learning model that predicts the failure of application executions on Purdue ITAP’s Central
-        Computing cluster dataset.</li>
-      <li>Achieved highest balanced accuracy using DecisionTreeClassifier and FastICA machine learning algorithms along
-        with Principal Component Analysis for feature selection.</li>
-    </ul>
-    <p><strong>Crowd Management System Semester: 6</strong></p>
-    <ul>
-      <li>Developed a user-friendly application called Crowd Guru to implement an effective crowd control scheme for
-        preventing overcrowding in mass rapid transit stations – Delhi Metro Rail Corporation (DMRC).</li>
-      <li>Revised an algorithm developed in Python for crowd approximation based on density. Used SciPy and NumPy
-        libraries for crowd approximation and Matplotlib for visualizing crowd density.</li>
-    </ul>
-    <p><strong>Interactive Sales Dashboard Semester: 7</strong></p>
-    <ul>
-      <li>Created an interactive dashboard from a dataset consisting of 15+ numerical and categorical attributes.</li>
-      <li>Identified various Key Performance Indicators (KPIs) and demonstrated them through visualization techniques
-        such as line graphs, trend charts, filters, slicers, and pivot tables.</li>
-    </ul>
+    <h2>4. Academic Projects</h2>
+    <div class="project-details">
+      <p><strong>Application Failure Prediction Model Semester: 5</strong></p>
+      <ul>
+        <li>Created a machine learning model that predicts the failure of application executions on Purdue ITAP’s Central
+          Computing cluster dataset.</li>
+        <li>Achieved highest balanced accuracy using DecisionTreeClassifier and FastICA machine learning algorithms along
+          with Principal Component Analysis for feature selection.</li>
+      </ul>
+    </div>
+    <div class="project-details">
+      <p><strong>Crowd Management System Semester: 6</strong></p>
+      <ul>
+        <li>Developed a user-friendly application called Crowd Guru to implement an effective crowd control scheme for
+          preventing overcrowding in mass rapid transit stations – Delhi Metro Rail Corporation (DMRC).</li>
+        <li>Revised an algorithm developed in Python for crowd approximation based on density. Used SciPy and NumPy
+          libraries for crowd approximation and Matplotlib for visualizing crowd density.</li>
+      </ul>
+    </div>
+    <div class="project-details">
+      <p><strong>Interactive Sales Dashboard Semester: 7</strong></p>
+      <ul>
+        <li>Created an interactive dashboard from a dataset consisting of 15+ numerical and categorical attributes.</li>
+        <li>Identified various Key Performance Indicators (KPIs) and demonstrated them through visualization techniques
+          such as line graphs, trend charts, filters, slicers, and pivot tables.</li>
+      </ul>
+    </div>
   </section>
 
   <section class="section">
-    <h2>Skills and Expertise</h2>
-    <p class="skills">Technical Skills: Python, SQL, R, Machine Learning, MongoDB, Apache Hadoop, Data Analytics and
-      Visualization, Data Structures, C, Google Cloud, AWS, Microsoft Office</p>
-    <p class="skills">Organizational Skills: Content Writing, Formal Documentation, Public Speaking, Critical Thinking, Team
-      Management</p>
+    <h2>5. Skills and Expertise</h2>
+    <div class="skills-details">
+      <p class="skills">Technical Skills: Python, SQL, R, Machine Learning, MongoDB, Apache Hadoop, Data Analytics and
+        Visualization, Data Structures, C, Google Cloud, AWS, Microsoft Office</p>
+      <p class="skills">Organizational Skills: Content Writing, Formal Documentation, Public Speaking, Critical Thinking, Team
+        Management</p>
+    </div>
   </section>
 
   <section class="section">
-    <h2>Extra-Curricular Activities</h2>
-    <ul class="extra-curricular">
-      <li>Conducted a hands-on workshop on ‘Creating a Dashboard using Microsoft Excel’ with over 50+ participants and
-        demonstrated various data manipulation and formatting functions alongside varied chart types offered by MS
-        Excel.</li>
-      <li>Published an article in IEEE USA Insight on the topic ‘How is the COVID-19 Shutdown affecting college
-        students?’</li>
-    </ul>
+    <h2>6. Extra-Curricular Activities</h2>
+    <div class="extra-curricular-details">
+      <ul>
+        <li>Conducted a hands-on workshop on ‘Creating a Dashboard using Microsoft Excel’ with over 50+ participants and
+          demonstrated various data manipulation and formatting functions alongside varied chart types offered by MS
+          Excel.</li>
+        <li>Published an article in IEEE USA Insight on the topic ‘How is the COVID-19 Shutdown affecting college
+          students?’</li>
+      </ul>
+    </div>
   </section>
 
   <section class="section">
-    <h2>Volunteer Experience</h2>
-    <ul class="volunteer">
-      <li>Planned and executed 4+ workshops teaching students how to best utilize Adobe applications, promoted Adobe
-        through content creation and advertising through personal social media channels, carried out initiatives
-        capturing at least 250 student leads, 20 clubs, and 5 professors interested in learning more about Adobe as an
-        Student Ambassador for Adobe at Indiana University.</li>
-      <li>Worked as the technical lead for INSPIRO 4.0 – the annual flagship event of IEEE ADIT Student Branch with over
-        500+ participants and 5 speakers from all over the world.</li>
-      <li>Co-ordinated and organized 10+ skill development workshops, seminars, and talks, spread across the domain of
-        AI/ML, Git and GitHub Foundations, and Competitive Coding as the Chairperson of IEEE ADIT Computer Society
-        Student Branch Chapter.</li>
-    </ul>
+    <h2>7. Volunteer Experience</h2>
+    <div class="volunteer-details">
+      <ul>
+        <li>Planned and executed 4+ workshops teaching students how to best utilize Adobe applications, promoted Adobe
+          through content creation and advertising through personal social media channels, carried out initiatives
+          capturing at least 250 student leads, 20 clubs, and 5 professors interested in learning more about Adobe as an
+          Student Ambassador for Adobe at Indiana University.</li>
+        <li>Worked as the technical lead for INSPIRO 4.0 – the annual flagship event of IEEE ADIT Student Branch with over
+          500+ participants and 5 speakers from all over the world.</li>
+        <li>Coordinated and organized 10+ skill development workshops, seminars, and talks, spread across the domain of
+          AI/ML, Git and GitHub Foundations, and Competitive Coding as the Chairperson of IEEE ADIT Computer Society
+          Student Branch Chapter.</li>
+      </ul>
+    </div>
   </section>
 
 </body>
